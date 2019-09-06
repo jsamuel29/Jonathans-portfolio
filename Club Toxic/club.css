@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  color: blue;
+  text-shadow: 2px 2px red;
+}
+
+body {
+  background-image: url("night.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.eminem {
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.cool {
+  text-align: center;
+  color: black;
+}
+
+.event {
+  color: red;
+}
+
+#bar {
+  background-image: url("vip.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
