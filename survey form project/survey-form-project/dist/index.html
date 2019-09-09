@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>survey form project</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main class="container my-5 py-3 rounded border-sm">
+ <h1 id="title">How was the Black Ops 4 beta?</h1>
+ <p id="description">Have you checked out the updates at <a href="https://charlieintel.com/" target="_blank">charlieintel.com</a>? If you have we would appreciate your feedback?</p>
+ <form action="" id="survey-form">
+   <div class="form-group">
+     <label for="name" id="name-label">Name:</label>
+       <input type="text" id="name" placeholder="Enter your full name" required>
+   </div>
+   <div class="form-group">
+     <label for="email" id="email-label">Email:</label>
+       <input type="email" id="email" placeholder="Enter your email" required>
+   </div>
+   <div class="form-group">
+     <label for="number" id="number-label">Age:</label>
+      <input type="number" max="150" min="1" id="number"  placeholder="Enter your age" required>
+     </div>
+   <div class="form-group">
+   <label for="dropdown" id="dropdown-label">Are you enjoying your multiplayer experience?
+    <select id="dropdown" name="dropdown" class="form-control">
+      <option disabled value>Select an option</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </label>
+   </div>
+   <div class="form-group">
+   <fieldset>
+    <legend>What game console do you use to play Black Ops 4?</legend>
+    <label for="xbox one"><input type="radio" id="xbox one" name="video game" value="xbox one">Xbox one
+    </label>
+      <label for="playstation 4"><input type="radio" id="playstation 4" name="video game" value="playstation 4">Playstation 4
+    </label>  
+  </fieldset>
+ <div class="form-group">   
+     <fieldset>
+       <legend>How was the multiplayer experience?<legend>
+        <label for="fantastic"><input type="checkbox" id="fantastic" name="multiplayer" value="fantastic">fantastic</label>
+        <label for="horrible"><input type="checkbox" id="horrible" name="multiplayer" value="horrible">horrible</label>
+      </fieldset>
+         </div>    
+       <div class="form-group">
+        <label for="comments">additional comments:</label>
+      <textarea name="comments" id="comments" class="custom-select" placeholder="Enter your comments" cols="30" rows="10"></textarea>
+       </div>
+      <button type="submit" class="btm btm-primary" id="submit" rows="3">Submit Anwsers</button>
+</form>
+    </main>    
+<script 
+src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- partial -->
+  
+</body>
+</html>
