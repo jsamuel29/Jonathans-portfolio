@@ -18,6 +18,17 @@ body {
 .topnav {
     background-color: lightskyblue;
     overflow: hidden;
+    animation-name: navigation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes navigation {
+  0% {background-color: lightskyblue;}
+  25% {background-color: purple;}
+  50% {background-color: green;}
+  100% {background-color: yellow;}
 }
 
 .topnav a {
