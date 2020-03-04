@@ -1,0 +1,28 @@
+h1 {
+    background-image: url("./images/img-1.jpg");
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+
+#brush {
+    background-color: blue;
+}
+
+.item h2 {
+    color: white;
+    font-size: 32px;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+}
+
+#frame {
+    background-color: lightskyblue;
+}
+
+#paint {
+    background-color: lightsalmon;
+}
